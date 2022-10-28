@@ -45,7 +45,7 @@ export const Work = () => {
               </ul>
               <ul class="hover:text-brightgreen">
                 <a
-                  href="https://aesthetic-licorice-88c74a.netlify.app/work"
+                  href="https://aesthetic-licorice-88c74a.netlify.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
