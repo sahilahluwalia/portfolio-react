@@ -45,6 +45,15 @@ export const Work = () => {
               </ul>
               <ul class="hover:text-brightgreen">
                 <a
+                  href="https://freecodecampfrontend.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  freeCodeCamp
+                </a>
+              </ul>
+              <ul class="hover:text-brightgreen">
+                <a
                   href="https://aesthetic-licorice-88c74a.netlify.app"
                   target="_blank"
                   rel="noopener noreferrer"
