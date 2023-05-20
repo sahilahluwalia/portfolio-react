@@ -8,81 +8,92 @@ export const Work = () => {
   const professionalSite = {
     websiteName: "GitHub",
     websiteLink: "https://github.com/sahilahluwalia",
-    text: "Check my code on"
-  }
+    text: "Check my code on",
+  };
   const heroSection = {
     heading: "What do I do?",
-    masterText: "I am a programmer by trade, but in reality, I am a Jedi Knight of code, using the force of JavaScript and Python to create powerful and efficient web applications that run like a well-oiled machine. I spend my days dueling with bugs, debugging like a pro, and making computers do my bidding."
-  }
+    masterText:
+      "I am a programmer by trade, but in reality, I am a Jedi Knight of code, using the force of Typescript to create powerful and efficient web applications that run like a well-oiled machine. I spend my days dueling with bugs, debugging like a pro, and making computers do my bidding.",
+  };
+
+  const professionalCollection = [
+    {
+      name: "Workcrew",
+      link: "https://workcrew.ai/",
+    },
+    {
+      name: "Mark My Words",
+      currentlyBuilding: true,
+      // link: "https://markmywords.vercel.app/",
+    },
+  ];
+
   const reactCollection = [
     {
       name: "Image Monster",
-      link: "https://sahil-frontend-dobby.vercel.app/"
-    }
-    ,
+      link: "https://sahil-frontend-dobby.vercel.app/",
+    },
     {
-      name: "freeCodeCamp",
-      link: "https://freecodecampfrontend.vercel.app/"
+      name: "freeCodeCamp Clone",
+      link: "https://freecodecampfrontend.vercel.app/",
     },
     {
       name: "Estatery",
-      link: "https://renunion-assignment.netlify.app/"
+      link: "https://renunion-assignment.netlify.app/",
     },
     {
-      name: "Portfolio",
-      link: "https://iamsahilahluwalia.in/"
+      name: "This Portfolio",
+      link: "https://sahilahluwalia.in/",
     },
     {
-      name: "Todo",
-      link: "https://verysimpletodo.netlify.app/"
-    }
-  ]
+      name: "Simple Todo",
+      link: "https://verysimpletodo.netlify.app/",
+    },
+  ];
   const tailwindCollection = [
     {
       name: "Shopify India",
-      link: "https://shopifyindia.netlify.app/"
+      link: "https://shopifyindia.netlify.app/",
     },
     {
       name: "Paytm",
-      link: "https://paytm-homepage.netlify.app/"
+      link: "https://paytm-homepage.netlify.app/",
     },
     {
       name: "Rode",
-      link: "https://rode-homepage.netlify.app/"
-    }
-  ]
+      link: "https://rode-homepage.netlify.app/",
+    },
+  ];
   const htmlCollection = [
     {
       name: "Designer",
-      link: "https://product-design-landingpage-p15.netlify.app/"
+      link: "https://product-design-landingpage-p15.netlify.app/",
     },
     {
       name: "Dance",
-      link: "https://dance-homepage-p14.netlify.app/"
+      link: "https://dance-homepage-p14.netlify.app/",
     },
     {
       name: "Business",
-      link: "https://business-landingpage-p12.netlify.app/"
+      link: "https://business-landingpage-p12.netlify.app/",
     },
     {
       name: "Hosting",
-      link: "https://hosting-landingpage-p11.netlify.app/"
+      link: "https://hosting-landingpage-p11.netlify.app/",
     },
     {
       name: "Developer",
-      link: "https://developer-landingpage-p9.netlify.app/"
+      link: "https://developer-landingpage-p9.netlify.app/",
     },
     {
       name: "Headphone",
-      link: "https://product-homepage-p7.netlify.app/"
+      link: "https://product-homepage-p7.netlify.app/",
     },
     {
-      name: 'Streetstyle',
-      link: "https://street-style-p1.netlify.app/"
-    }
-
-  ]
-
+      name: "Streetstyle",
+      link: "https://street-style-p1.netlify.app/",
+    },
+  ];
 
   return (
     <>
@@ -99,15 +110,19 @@ export const Work = () => {
             text={professionalSite.text}
           />
           <LeftSection
-            headLine={"Recent React Works"}
+            headLine={"Contributed to codebases professionally"}
+            collection={professionalCollection}
+          />
+          <RightSection
+            headLine={"React Projects"}
             collection={reactCollection}
           />
-          < RightSection
-            headLine={"Recent Tailwind Replicas"}
+          <LeftSection
+            headLine={"Tailwind Replicas"}
             collection={tailwindCollection}
           />
-          <LeftSection
-            headLine={"Recent HTML/CSS Works"}
+          <RightSection
+            headLine={"Vanilla HTML/CSS"}
             collection={htmlCollection}
           />
         </div>
