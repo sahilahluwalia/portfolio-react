@@ -24,7 +24,7 @@ export const Work = () => {
     {
       name: "Mark My Words",
       currentlyBuilding: true,
-      // link: "https://markmywords.vercel.app/",
+      link: "https://markmywords.au/",
     },
   ];
 

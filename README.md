@@ -2,5 +2,4 @@
 Made with React and TailwindCSS
 
 ## Deployed link
-- [DEPLOYED WEBPAGE](https://iamsahilahluwalia.in/)
-
+- [DEPLOYED WEBPAGE](https://sahilahluwalia.in/)
